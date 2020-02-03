@@ -1,0 +1,41 @@
+.main-content{
+    position: relative;
+    min-height: 69vh;
+    
+}
+.products-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 160px 0 0 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.product{
+    width: 220px;
+    padding: 20px;
+    background: #FDFDFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.253);
+    border-radius: 36px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.product h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 5px 0 0 0;
+}
+.product p{
+    font-size: 12px;
+    margin: 0;
+}
+.simulator:hover{
+    transform: translateX(-30px);
+}
+.brain:hover{
+    transform: translateX(-410px);
+    transition-duration: .8s;
+}
+.analyzer:hover{
+    transform: translateX(-820px);
+}

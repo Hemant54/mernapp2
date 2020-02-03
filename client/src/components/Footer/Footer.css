@@ -1,0 +1,29 @@
+.footer{
+    padding: 20px 180px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-text{
+    font-size: 18px;
+    flex-grow: 1;
+    text-transform: uppercase;
+}
+.footer-text span{
+    color: #37966F;
+}
+.footer-icons img{
+    width: 20px;
+    margin: 0 10px;
+}
+.footer-break{
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid #37966F;
+}
+.copy-text{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
